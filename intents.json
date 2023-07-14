@@ -1,0 +1,44 @@
+{
+    "intents" : [
+        {
+            "tag" :  "greeting",
+            "patterns" : [
+                "Hi",
+                "Hey",
+                "What's up",
+                "Hey how are you doing"
+            ],
+            "responses": [
+                "Hey Rishav!",
+                "What can I do for you"
+            ]
+        },
+        {
+            "tag": "Rishav",
+            "patterns": [
+                "What is Rishav",
+                "Who is Rishav",
+                "Tell me about Rishav"
+            ],
+            "responses": [
+                "Rishav Banerjee is is my Creator. He is currently 22 years old and Pursuing MCA. His favourite programming language is python."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What should I call you",
+            ],
+            "responses": "My name is SATURN"
+        },
+        {
+            "tag":"file",
+            "patterns": [
+                "Create new file",
+                "Create a file"
+            ],
+            "responses":[]
+        }
+    ]
+}
